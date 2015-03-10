@@ -1,0 +1,36 @@
+
+
+1) Logo
+		 AD: has an obstacle no photos - promised on wednesday. 
+				
+	
+2)  Design of Index page
+	
+	GL: 
+		- Colour schema
+			- blocked by photos
+		- design of buttons
+			- NM proposed design of buttons
+			- AD asks for Links on social 
+			
+		blockers:
+	AD: 
+		- Photos on Wednesday
+		
+	NM: Layout of Links on social servers
+
+	2.5) AD + GL + NM = agree daily time. -> say it to alz
+	
+3) GK: -blocker : GitHub clone -> ask ALZ for help.
+	
+
+4) AD asks for HOSTname
+
+5) ALZ: - Shows to developers how to:
+		- Create NodeJS site
+		- Debug RedHead logs
+		- Create certificates.
+
+
+6) on Thursday sync meeting 21-00
+
