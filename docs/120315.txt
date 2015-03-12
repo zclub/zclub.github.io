@@ -1,0 +1,48 @@
+
+
+
+GL: blockeds
+
+KY: talks to GL about design aspects 
+
+NM: waits for links
+
+
+
+nodejs - blocker for 
+
+GK, NM, AD, GL
+
+
+alz: did nothing, will prepare docs for kick off.
+
+
+
+
+
+Lessons:
+NM: asks anyone
+GK: on tuesday;
+KY: 
+
+
+key1   | key2| key3
+--------------------
+value1 | val
+
+value2 |
+
+
+var keys = [];
+
+for(key in object)
+{
+	
+	var uniqueKeys = distinct(keys);
+
+}
+
+
+
+
+
