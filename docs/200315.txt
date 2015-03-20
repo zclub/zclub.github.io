@@ -1,0 +1,10 @@
+design
+
+	-font ?
+	
+	NM:  Email, Services
+	YUP: Instagram research for service API
+	YK: Google Calendar
+	GK: Research Youtube API
+	GL: polishing up of mockup
+	
