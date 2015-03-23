@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+
+    function OnLoadCallback() {
+        console.log('loaded. client API');
+        gapi.client.setApiKey('AIzaSyBJXXHVPgBZpv1ZPCVkfOrQMkXp7bwJwaE');
+        gapi.client.load('calendar', 'v3').then(
+            function ()
+        {
+                var events = gapi.client.calendar.events;
+
+                var request = events.list({
+                    'calendarId': 's6rh5gb027n81g3d88rqm58gt8@group.calendar.google.com',
+                });
+                   
+               console.log(request.execute(function (d) { console.log(d) }));
+        });
+
+        
+    }
+    </script>
+
+    <script src="https://apis.google.com/js/client.js?onload=OnLoadCallback"></script>
+</head>
+<body>
+    <script>
+
+        
+
+    </script>
+
+</body>
+</html>
