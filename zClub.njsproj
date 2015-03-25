@@ -26,6 +26,7 @@
     <Content Include="docs\Design.txt" />
     <Content Include="docs\log.txt" />
     <Content Include="docs\TimeManagement.txt" />
+    <Content Include="public\Calendar.html" />
     <Content Include="public\index.html" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\passport.js" />
