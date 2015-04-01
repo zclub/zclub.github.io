@@ -51,15 +51,21 @@
       //    The function indicates that when playing a video (state=1),
       //    the player should play for six seconds and then stop.
 	  
-	for(var i=0; i<3; ++i) {
-		  function onPlayerStateChange(event) {
-			if (event.data == YT.PlayerState.PLAYING) {
+	  //	Два первых видео играет по 3 сек каждое, третье видео играет полностью.
+	   	
+	function nextVideo() 
+	{
+		player.nextVideo();
+	}	
+	for(var i=0; i<2; ++i) 
+	{
+		function onPlayerStateChange(event) 
+		{
+			if (event.data == YT.PlayerState.PLAYING) 
+			{
 			  setTimeout(nextVideo, 4000);
 			}
-		  }
-		  function nextVideo() {
-			player.nextVideo();
-		  }
+		}
 	}
 	  
 
