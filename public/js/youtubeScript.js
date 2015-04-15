@@ -57,16 +57,16 @@
 	{
 		player.nextVideo();
 	}	
-	for(var i=0; i<2; ++i) 
+	
+	function onPlayerStateChange(event) 
 	{
-		function onPlayerStateChange(event) 
+		if (event.data == YT.PlayerState.PLAYING) 
 		{
-			if (event.data == YT.PlayerState.PLAYING) 
-			{
-			  setTimeout(nextVideo, 4000);
-			}
+			setTimeout(nextVideo, 4000);
 		}
+		if (!nextVideo) return;
 	}
+	
 	  
 
 	
