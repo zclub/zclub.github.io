@@ -28,6 +28,7 @@
     <Content Include="docs\TimeManagement.txt" />
     <Content Include="public\Calendar.html" />
     <Content Include="public\index.html" />
+    <Compile Include="gallery\index.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\passport.js" />
     <Compile Include="routes\users.js" />
@@ -41,6 +42,7 @@
   <ItemGroup>
     <Folder Include="bin" />
     <Folder Include="docs" />
+    <Folder Include="gallery\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
